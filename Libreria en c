@@ -1,4 +1,4 @@
-// Creacion de la libreria en c
+// Creacion del archivo que funciona como libreria en c
 
 %%writefile productoEscalar.c
 
