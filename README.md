@@ -1,7 +1,7 @@
 <h1>Tarea Profiling y Avx</h1>
 <hr>
 <h2>Participantes</h2>
-<h3>Nicole Narvaez, Juan Pablo Robayo</h3>
+<h3>Nicole Narvaez Medina (2156947), Juan Pablo Robayo Maestre (2156743)</h3>
 <hr>
 <h4>Explicacion de los archivos</h4>
 
