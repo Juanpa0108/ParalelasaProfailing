@@ -7,12 +7,17 @@
 
 <ul>
   <li>El archivo "productoEscalar.c" es el que contiene la libreria en c, la cual se encarga de multiplicar un vector por un escalar.</li>
-  <li>Despues de crear ese archivo se deben realizar estos comandos en Consola "rm -f libMultScalar.so, 
-                                                                             gcc -fPIC -shared -o libMultScalar.so productoEscalar.c -mavx" para crear el enlace dinamico a la libreria</li>
+  <li>Despues de crear ese archivo se deben realizar estos comandos en Consola: 
+    <ol>
+    <li>rm -f libMultScalar.s</li>
+    <li>gcc -fPIC -shared -o libMultScalar.so productoEscalar.c -mavx" para crear el enlace dinamico a la libreria</li>
+    </ol>
+  </li>
   <li>El archivo "productoTimeit.py" es donde probamos la libreria creada en c y medimos el tiempo usando la libreria timeit.</li>
   <li>El archivo "productoProf.py" es donde probamos la libreria creada en c y medimos el tiempo usando la libreria cProfile.</li>
   <li>El archivo "programaBaseTimeit.py" es el que contiene el programa base donde se multiplica un vector por un escalar y no usa ninguna libreria que lo ayude en su proceso, en este se uso la libreia timeit para medir su tiempo</li>
   <li>El archivo "programaBasePro.py" es el que contiene el programa base explicado anteriormente, en este se uso la libreia cProfile para medir su tiempo</li>
   <li>El archivo "numpyProf.py" es donde realizamos la misma funcion que el programa base pero usando la libreria numpy, en este se uso la libreria cProfile para medir el tiempo.</li>
+  <li>El archivo "numpyTimeit.py" es donde realizamos la misma funcion que el programa base pero usando la libreria numpy, en este se uso la libreria timeit para medir el tiempo.</li>
 </ul>
  
