@@ -7,7 +7,7 @@
 
 <ul>
   <li>El archivo "productoEscalar.c" es el que contiene la libreria en c, la cual se encarga de multiplicar un vector por un escalar.</li>
-  <li>Despues de crear ese archivo se deben realizar estos comandos en Consola "rm -f libMultScalar.so
+  <li>Despues de crear ese archivo se deben realizar estos comandos en Consola "rm -f libMultScalar.so, 
                                                                              gcc -fPIC -shared -o libMultScalar.so productoEscalar.c -mavx" para crear el enlace dinamico a la libreria</li>
   <li>El archivo "productoTimeit.py" es donde probamos la libreria creada en c y medimos el tiempo usando la libreria timeit.</li>
   <li>El archivo "productoProf.py" es donde probamos la libreria creada en c y medimos el tiempo usando la libreria cProfile.</li>
